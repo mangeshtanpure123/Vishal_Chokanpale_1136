@@ -16,3 +16,13 @@ Website will have database supports which will be robust and secure.
 If there is any illegal attempt to access sensitive information the website will shut down immediately.
 And provide another way for Contoso work.
 Database will have backup plans.
+
+
+commands for github:
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/mangeshtanpure123/Vishal_Chokanpale_1136.git
+git push -u origin master
+
+
