@@ -24,5 +24,6 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/mangeshtanpure123/Vishal_Chokanpale_1136.git
 git push -u origin master
+git clone https://github.com/mangeshtanpure123/Vishal_Chokanpale_1136.git
 
 
