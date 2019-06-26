@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-//Reusable controllers
+
 var custController=function(req, res){
   console.log("Customer list");
   var customers = [
@@ -12,7 +12,6 @@ var custController=function(req, res){
   res.send(customers);
 };
 
-// setting router to map requests  with controllers
 app.get ('/customers',custController);
 var server = app.listen(8086, function () {
   var host = server.address().address
