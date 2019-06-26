@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 
-var custController=function(req, res){
+var getCustomers=function(req, res){
   console.log("Customer list");
   var customers = [
 	{id:12,companyname:"Onida",accno:1234,emp:"VC"},
@@ -12,7 +12,7 @@ var custController=function(req, res){
   res.send(customers);
 };
 
-app.get ('/customers',custController);
+app.get ('/customers',getCustomers);
 var server = app.listen(8086, function () {
   console.log("Example app listening at http://localhost:8086")
 })
