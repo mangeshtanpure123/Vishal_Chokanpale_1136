@@ -6,16 +6,22 @@ This information needs to be secured so employee with rights can access these re
 
 
 Functional Requirements:
-Website will have authentication system.
+Website will have authentication,authorization system.
 Employee will have access to limited information according to their privileges.
 If any employee is making any changes in customer info the manager will get notified.
 Manager will have rights to add and give rights to new employee.
+Create reports of customers.
+Show statistical information in diagram forms.
+The website will be hosted on cloud.
+
 
 Non Functional:
 Website will have database supports which will be robust and secure.
 If there is any illegal attempt to access sensitive information the website will shut down immediately.
-And provide another way for Contoso work.
+And provide another way for Contoso to work.
 Database will have backup plans.
+The website will accessed through only selected ip and routes.
+
 
 
 commands for github:
