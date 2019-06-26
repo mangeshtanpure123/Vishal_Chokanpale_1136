@@ -1,0 +1,18 @@
+Problem Definition:
+Contoso has 12 offices all over world. Each office needs to access the records of all corporate customers of Contoso.
+All the corporate customers information needs to be store in cloud so that employee of Contoso all over world can have access to this info.
+A central website will provide this information to employee with proper credentials. And do changes if necessary.
+This information needs to be secured so employee with rights can access these records.
+
+
+Functional Requirements:
+Website will have authentication system.
+Employee will have access to limited information according to their privileges.
+If any employee is making any changes in customer info the manager will get notified.
+Manager will have rights to add and give rights to new employee.
+
+Non Functional:
+Website will have database supports which will be robust and secure.
+If there is any illegal attempt to access sensitive information the website will shut down immediately.
+And provide another way for Contoso work.
+Database will have backup plans.
